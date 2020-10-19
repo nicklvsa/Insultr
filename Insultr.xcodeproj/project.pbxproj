@@ -17,6 +17,7 @@
 		1FB1138E253CD24D00365D6F /* InsultrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1138D253CD24D00365D6F /* InsultrTests.swift */; };
 		1FB11399253CD24D00365D6F /* InsultrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB11398253CD24D00365D6F /* InsultrUITests.swift */; };
 		1FB113BA253CDB2C00365D6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FB113B9253CDB2C00365D6F /* GoogleService-Info.plist */; };
+		1FF229CF253D14D50090612F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1FF229CE253D14D50090612F /* .gitignore */; };
 		8F9255C413833B304B02D91E /* Pods_Insultr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D78DB8BA48C2E54A6DC9A6 /* Pods_Insultr.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		1FB11398253CD24D00365D6F /* InsultrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsultrUITests.swift; sourceTree = "<group>"; };
 		1FB1139A253CD24D00365D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB113B9253CDB2C00365D6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1FF229CE253D14D50090612F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		565439ABCB495298A66C9845 /* Pods-Insultr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insultr.release.xcconfig"; path = "Target Support Files/Pods-Insultr/Pods-Insultr.release.xcconfig"; sourceTree = "<group>"; };
 		890522B0995B8BC8D3DFB1A9 /* Pods-Insultr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insultr.debug.xcconfig"; path = "Target Support Files/Pods-Insultr/Pods-Insultr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 		1FB11367253CD24B00365D6F = {
 			isa = PBXGroup;
 			children = (
+				1FF229CE253D14D50090612F /* .gitignore */,
 				1FB11372253CD24B00365D6F /* Insultr */,
 				1FB1138C253CD24D00365D6F /* InsultrTests */,
 				1FB11397253CD24D00365D6F /* InsultrUITests */,
@@ -263,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF229CF253D14D50090612F /* .gitignore in Resources */,
 				1FB11383253CD24D00365D6F /* LaunchScreen.storyboard in Resources */,
 				1FB113BA253CDB2C00365D6F /* GoogleService-Info.plist in Resources */,
 				1FB11380253CD24D00365D6F /* Assets.xcassets in Resources */,
