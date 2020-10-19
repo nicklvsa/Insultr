@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		1FB11383253CD24D00365D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB11381253CD24D00365D6F /* LaunchScreen.storyboard */; };
 		1FB1138E253CD24D00365D6F /* InsultrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1138D253CD24D00365D6F /* InsultrTests.swift */; };
 		1FB11399253CD24D00365D6F /* InsultrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB11398253CD24D00365D6F /* InsultrUITests.swift */; };
+		1FB113BA253CDB2C00365D6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FB113B9253CDB2C00365D6F /* GoogleService-Info.plist */; };
+		8F9255C413833B304B02D91E /* Pods_Insultr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D78DB8BA48C2E54A6DC9A6 /* Pods_Insultr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D78DB8BA48C2E54A6DC9A6 /* Pods_Insultr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insultr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB11370253CD24B00365D6F /* Insultr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insultr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB11373253CD24B00365D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FB11375253CD24B00365D6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		1FB11394253CD24D00365D6F /* InsultrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsultrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB11398253CD24D00365D6F /* InsultrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsultrUITests.swift; sourceTree = "<group>"; };
 		1FB1139A253CD24D00365D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB113B9253CDB2C00365D6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		565439ABCB495298A66C9845 /* Pods-Insultr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insultr.release.xcconfig"; path = "Target Support Files/Pods-Insultr/Pods-Insultr.release.xcconfig"; sourceTree = "<group>"; };
+		890522B0995B8BC8D3DFB1A9 /* Pods-Insultr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insultr.debug.xcconfig"; path = "Target Support Files/Pods-Insultr/Pods-Insultr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9255C413833B304B02D91E /* Pods_Insultr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +92,8 @@
 				1FB1138C253CD24D00365D6F /* InsultrTests */,
 				1FB11397253CD24D00365D6F /* InsultrUITests */,
 				1FB11371253CD24B00365D6F /* Products */,
+				6B9F7DCAB5971CF7AF39539B /* Pods */,
+				70CAFCE318063CD743405238 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +110,7 @@
 		1FB11372253CD24B00365D6F /* Insultr */ = {
 			isa = PBXGroup;
 			children = (
+				1FB113B9253CDB2C00365D6F /* GoogleService-Info.plist */,
 				1FB11373253CD24B00365D6F /* AppDelegate.swift */,
 				1FB11375253CD24B00365D6F /* SceneDelegate.swift */,
 				1FB11377253CD24B00365D6F /* ViewController.swift */,
@@ -131,6 +141,23 @@
 			path = InsultrUITests;
 			sourceTree = "<group>";
 		};
+		6B9F7DCAB5971CF7AF39539B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890522B0995B8BC8D3DFB1A9 /* Pods-Insultr.debug.xcconfig */,
+				565439ABCB495298A66C9845 /* Pods-Insultr.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70CAFCE318063CD743405238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08D78DB8BA48C2E54A6DC9A6 /* Pods_Insultr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FB1139D253CD24D00365D6F /* Build configuration list for PBXNativeTarget "Insultr" */;
 			buildPhases = (
+				66FF81B89A7269AAEC139ED2 /* [CP] Check Pods Manifest.lock */,
 				1FB1136C253CD24B00365D6F /* Sources */,
 				1FB1136D253CD24B00365D6F /* Frameworks */,
 				1FB1136E253CD24B00365D6F /* Resources */,
+				ECE795C532AE95AE3620AE90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB11383253CD24D00365D6F /* LaunchScreen.storyboard in Resources */,
+				1FB113BA253CDB2C00365D6F /* GoogleService-Info.plist in Resources */,
 				1FB11380253CD24D00365D6F /* Assets.xcassets in Resources */,
 				1FB1137B253CD24B00365D6F /* Main.storyboard in Resources */,
 			);
@@ -255,6 +285,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66FF81B89A7269AAEC139ED2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Insultr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE795C532AE95AE3620AE90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insultr/Pods-Insultr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insultr/Pods-Insultr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Insultr/Pods-Insultr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FB1136C253CD24B00365D6F /* Sources */ = {
@@ -437,12 +509,14 @@
 		};
 		1FB1139E253CD24D00365D6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890522B0995B8BC8D3DFB1A9 /* Pods-Insultr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YC9522237;
 				INFOPLIST_FILE = Insultr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,18 +524,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicksdesk.Insultr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1FB1139F253CD24D00365D6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565439ABCB495298A66C9845 /* Pods-Insultr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YC9522237;
 				INFOPLIST_FILE = Insultr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,7 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicksdesk.Insultr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

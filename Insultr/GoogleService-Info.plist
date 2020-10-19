@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>237845857252-58u76rpt5s8oh1o8is4obad8jbd6j0qm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.237845857252-58u76rpt5s8oh1o8is4obad8jbd6j0qm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCYEfMGEiDGvCzHo4enh7sMrrzmM5UT_34</string>
+	<key>GCM_SENDER_ID</key>
+	<string>237845857252</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nicksdesk.Insultr</string>
+	<key>PROJECT_ID</key>
+	<string>nicklvsa7802</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nicklvsa7802.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:237845857252:ios:43bc72d79b91f1bc3ebdf1</string>
+	<key>DATABASE_URL</key>
+	<string>https://nicklvsa7802.firebaseio.com</string>
+</dict>
+</plist>
